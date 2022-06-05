@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+        crossorigin="anonymous">
+
+    <title>Landing Page Template Project: Surprise Eggs</title>
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <!--main container-->
+    <div class="container-fluid my-container">
+
+        <!--first row-->
+        <header id="header">
+            <div class="row row-one"> 
+            
+                <!--row one, column one-->  
+                <div class="col col-xs-8 col-sm-8 col-md-4 col-lg-7 row-one-col-one">
+
+                   
+                        <a href="product-landing-page.html" class="logo">
+                            <img src="./images/logo-d2f0ff-background.png" height="170" width="170"/>
+                        </a>
+                    
+
+                </div>
+
+                <!--row one, column two-->
+                <div class="col col-xs-4 col-sm-4 col-md-8 col-lg-5 row-one-col-two">
+
+                    <div class="container-fluid">
+                        
+                        <nav class="navbar navbar-expand-md bg-transparent">    
+                            
+                            <div class="container-fluid header-nav-links">
+                                <ul class="nav collapse navbar-collapse" id="navbarMenu">
+                                    <li><a href="product-landing-page.html" class="nav-link px-2 text-black">Home</a></li>
+                                    <li><a href="#features-link" class="nav-link px-2 text-black">Features</a></li>
+                                    <li><a href="#pricing" class="nav-link px-2 text-black">Pricing</a></li>
+                                    <li><a href="#about-us" class="nav-link px-2 text-black">About</a></li>
+                                    <li><a href="landing-page-contact-us.html" class="nav-link px-2 text-black">Contact Us</a></li>
+                                    <li><a href="#" class="nav-link px-2 text-black">Sign In</a></li>
+                                </ul>
+                            </div>
+                            
+                        </nav>
+
+                        <nav class="navbar navbar-light navbar-expand-md bg-transparent fixed-top-right">
+                            <div class="container-fluid">
+                                <button class="navbar-toggler toggle-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                            </div>
+                            
+                        </nav>
+                    </div>
+                    
+                   
+
+                </div>
+
+            </div>
+
+        </header>
+
+        <!--second row-->
+        <div class="row row-two">
+            
+            <!--row two, column one-->
+            <div class="col row-two-col-one" id="logo-home">
+                <p id="fun-line">Eggstra special fun for the whole family!</p>
+              
+                <img  class="egg-pic-one" src="./images/opening-eggs.jpg" height="350" width="400" />
+
+            </div>
+            
+        </div>
+
+        <!--row three-->
+        <div class="row row-three">
+
+            <!--row three, column one-->
+            <div class="col row-three-col-one">
+
+                <!--Subscribe, enter email input-->
+                <div class="rounded searchbar enter-email" id="features-link" >
+                    <input type="search" class="form-control rounded" placeholder="Enter your email address">
+                </div>
+                
+                <div>
+                    <button type="button" class="btn btn-secondary start-here-button">Start Here</button>
+                </div>
+
+            </div>      
+
+        </div>
+
+        <!--row four-->
+        <div class="row row-four">
+
+            <!--row four, column one-->
+            <div class="col row-four-col-one">
+                <div id="features">
+
+                    
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="40" height="40" fill="orange" class="recycle-icon"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M180.2 243.1C185 263.9 162.2 280.2 144.1 268.8L119.8 253.6l-50.9 81.43c-13.33 21.32 2.004 48.98 27.15 48.98h32.02c17.64 0 31.98 14.32 31.98 31.96c0 17.64-14.34 32.05-31.98 32.05H96.15c-75.36 0-121.3-82.84-81.47-146.8L65.51 219.8L41.15 204.5C23.04 193.1 27.66 165.5 48.48 160.7l91.43-21.15C148.5 137.7 157.2 142.9 159.2 151.6L180.2 243.1zM283.1 78.96l41.25 66.14l-24.25 15.08c-18.16 11.31-13.57 38.94 7.278 43.77l91.4 21.15c8.622 1.995 17.23-3.387 19.21-12.01l21.04-91.43c4.789-20.81-17.95-37.05-36.07-25.76l-24.36 15.2L337.4 45.14c-37.58-60.14-125.2-60.18-162.8-.0617L167.2 56.9C157.9 71.75 162.5 91.58 177.3 100.9c14.92 9.359 34.77 4.886 44.11-10.04l7.442-11.89C241.6 58.58 270.9 59.33 283.1 78.96zM497.3 301.3l-16.99-27.26c-9.336-14.98-29.06-19.56-44.04-10.21c-14.94 9.318-19.52 29.15-10.18 44.08l16.99 27.15c13.35 21.32-1.984 49-27.14 49h-95.99l.0234-28.74c0-21.38-25.85-32.09-40.97-16.97l-66.41 66.43c-6.222 6.223-6.222 16.41 .0044 22.63l66.42 66.34c15.12 15.1 40.95 4.386 40.95-16.98l-.0234-28.68h95.86C491.2 448.1 537.2 365.2 497.3 301.3z"/></svg>
+
+                    
+
+                    <h3><strong>Quality Materials</strong></h3>
+                    <p>Eggs are made with 100% recycled and reusable materials.</p>
+
+                    <hr>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="orange" class="bi bi-egg egg-icon" viewBox="0 0 16 16">
+                        <path d="M8 15a5 5 0 0 1-5-5c0-1.956.69-4.286 1.742-6.12.524-.913 1.112-1.658 1.704-2.164C7.044 1.206 7.572 1 8 1c.428 0 .956.206 1.554.716.592.506 1.18 1.251 1.704 2.164C12.31 5.714 13 8.044 13 10a5 5 0 0 1-5 5zm0 1a6 6 0 0 0 6-6c0-4.314-3-10-6-10S2 5.686 2 10a6 6 0 0 0 6 6z"/>
+                    </svg>
+
+                    <h3><strong>Wide Variety of Premium Surprises</strong></h3>
+                    <p>Our inventory is kept up to date with trending surprises. If you would like to request for specific surprises not in our current inventory, please visit our Contact Us page and provide feedback or send us an email!</p>
+
+                    <hr>
+                    
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" fill="orange" width="40" height="40" class="airplane-icon"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M482.3 192C516.5 192 576 221 576 256C576 292 516.5 320 482.3 320H365.7L265.2 495.9C259.5 505.8 248.9 512 237.4 512H181.2C170.6 512 162.9 501.8 165.8 491.6L214.9 320H112L68.8 377.6C65.78 381.6 61.04 384 56 384H14.03C6.284 384 0 377.7 0 369.1C0 368.7 .1818 367.4 .5398 366.1L32 256L.5398 145.9C.1818 144.6 0 143.3 0 142C0 134.3 6.284 128 14.03 128H56C61.04 128 65.78 130.4 68.8 134.4L112 192H214.9L165.8 20.4C162.9 10.17 170.6 0 181.2 0H237.4C248.9 0 259.5 6.153 265.2 16.12L365.7 192H482.3z"/>
+                    </svg>
+
+                   
+
+                    <h3><strong>Fast Shipping</strong></h3>
+                    <p>We ensure you will receive your surprise eggs as soon as possible. We also provide free returns if you are not satisfied with your order.</p>
+
+                </div>
+
+            </div>      
+            
+            
+
+        </div>
+
+        <!--row five-->
+        <div class="row row-five">
+            
+            <!--row five, column one-->
+            <div class="col row-five-col-one d-flex justify-content-center">
+                <iframe class="youtube-video" width="560" height="315" src="https://www.youtube.com/embed/6Z8IDfh6kOw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </div>      
+
+        </div>
+        
+        <!--row six-->
+        <div class="row row-six" id="pricing">
+            
+            <!--row six, column one-->
+            <div class="col row-six-col-one">
+
+                <!--plastic eggs price-->
+                <div class="card d-flex justify-content-center align-items-center egg-pics-price" style="width: 18rem;">
+                    <img src="images\bulk-eggs.jpg" height="350" class="card-img-top" alt="plastic eggs">
+                    <div class="card-body">
+                      <h5 class="card-title">$25</h5>
+                      <p class="card-text"><strong>Plastic Eggs</strong></p>
+                    </div>
+                   
+                    <div class="card-body">
+                        <a href="landing-page-form.html" class="btn btn-secondary">Select</a>
+                    </div>
+                </div>
+
+                 <!--candy shell eggs price-->
+                 <div class="card d-flex justify-content-center align-items-center egg-pics-price" style="width: 18rem;">
+                    <img src="images\candy-shell-eggs.png" height="350" class="card-img-top" alt="candy shell eggs">
+                    <div class="card-body">
+                      <h5 class="card-title">$40</h5>
+                      <p class="card-text"><strong>Candy Shell Eggs</strong></p>
+                    </div>
+                   
+                    <div class="card-body">
+                        <a href="landing-page-form.html" class="btn btn-secondary">Select</a>
+                    </div>
+                </div>
+
+                <!--chocolate shell eggs price-->
+                <div class="card d-flex justify-content-center align-items-center egg-pics-price" style="width: 18rem;">
+                    <img src="images\chocolate-eggs.png" height="350" class="card-img-top" alt="chocolate shell eggs">
+                    <div class="card-body">
+                      <h5 class="card-title">$30</h5>
+                      <p class="card-text"><strong>Chocolate Shell Eggs</strong></p>
+                    </div>
+                   
+                    <div class="card-body">
+                        <a href="landing-page-form.html" class="btn btn-secondary">Select</a>
+                    </div>
+                </div>
+
+                <!--paper mache shell eggs price-->
+                <div class="card d-flex justify-content-center align-items-center egg-pics-price" style="width: 18rem;">
+                    <img src="images\paper mache eggs.png" height="350" class="card-img-top" alt="paper mache shell eggs">
+                    <div class="card-body">
+                      <h5 class="card-title">$45</h5>
+                      <p class="card-text"><strong>Paper Mache Shell Eggs</strong></p>
+                    </div>
+                   
+                    <div class="card-body">
+                        <a href="landing-page-form.html" class="btn btn-secondary">Select</a>
+                    </div>
+                </div>
+               
+                 <!--wooden shell eggs price-->
+                 <div class="card d-flex justify-content-center align-items-center egg-pics-price" style="width: 18rem;">
+                    <img src="images\nesting-wooden-eggs-diy.png" height="350" class="card-img-top" alt="wooden shell eggs">
+                    <div class="card-body">
+                      <h5 class="card-title">$50</h5>
+                      <p class="card-text"><strong>Wooden Shell Eggs</strong></p>
+                    </div>
+                   
+                    <div class="card-body">
+                        <a href="landing-page-form.html" class="btn btn-secondary">Select</a>
+                    </div>
+                </div>
+
+                 <!--nesting wooden shell eggs price-->
+                 <div class="card d-flex justify-content-center align-items-center egg-pics-price" style="width: 18rem;">
+                    <img src="images\wooden-eggs.JPG" height="350" class="card-img-top" alt="nesting wooden shell eggs">
+                    <div class="card-body">
+                      <h5 class="card-title">$75</h5>
+                      <p class="card-text"><strong>Nesting Wooden Shell Eggs</strong></p>
+                    </div>
+                   
+                    <div class="card-body">
+                        <a href="landing-page-form.html" class="btn btn-secondary">Select</a>
+                    </div>
+                </div>
+
+            </div>      
+            
+        </div>
+
+        <!--row seven-->
+        <div class="row row-seven">
+            
+            <!--row seven, column one-->
+            <div class="col row-seven-col-one">
+                <div class="what-about-us">
+                    <h1 id="about-us">About Us</h1>
+                    <hr>
+                    <p>Established in San Ramon, California in 2020 during the pandemic to bring happiness, fun, and bright smiles to families all over the world. Our children love opening surprises, so we want to share the fun and laughter with as many people as we can! We like the variety in different types of eggs, the surprises in them, and the ability to customize our products. 100% satisfaction guaranteed!</p>
+                </div>
+            </div>      
+
+        </div>
+
+            <!--row eight-->
+        <div class="row row-eight">
+            
+            <!--row eight, column one-->
+            <div class="col row-eight-col-one footer-eggs">
+                <div class="container-fluid">
+                    <ul class="nav col-12 col-lg-auto me-lg-auto d-flex justify-content-end">
+                        <li><a href="#" class="nav-link px-2 text-black">Privacy</a></li>
+                        <li><a href="#" class="nav-link px-2 text-black">Terms</a></li>
+                        <li><a href="landing-page-contact-us.html" class="nav-link px-2 text-black">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <p>Copyright 2020, Eggstraordinary Surprises</p>
+
+                </div> 
+                
+                <div class="social-media-icons">
+                    <a href="#" class="fa fa-lg fa-facebook"></a>
+                    <a href="#" class="fa fa-lg fa-twitter"></a>
+                    <a href="#" class="fa fa-lg fa-instagram"></a>
+                </div>
+
+            </div>    
+           
+
+        </div>
+        
+    <!--main container ending div-->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+</body>
+</html>
